@@ -1,0 +1,11 @@
+5th step is an absorbing state
+
+Tau =
+
+    4.8055
+
+             3.9253
+ 
+             3.7513
+
+             3.1474
