@@ -1,0 +1,76 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\title{Assignment 1\\ \Large AI1110: Probability and Random Variables \\ \large Indian Institute of Technology Hyderabad}
+\author{Shreyas Wankhede \\ \normalsize AI21BTECH11028 \\ \vspace*{20pt} \\ \Large ICSE 2014 Grade 10}
+
+
+\begin{document}
+\maketitle
+\textbf{Problem Statement}\\
+Question 1.C of ICSE maths 2014 paper\\\\
+\textbf{question:}
+A die has 6 faces marked by given numbers as shown below\\
+\framebox{1}\hspace{0.3cm}\framebox{2}\hspace{0.3cm}\framebox{3}\hspace{0.3cm}\framebox{-1}\hspace{0.3cm}\framebox{-2}\hspace{0.3cm}\framebox{-3}\\
+The die is thrown once. What is the probability of getting:\\
+(i)   a positive integer\\
+(ii)  an integer greater than -3\\
+(iii)  the smallest integer\\
+
+\maketitle
+\textbf{Solution: }\\
+Let S be the sample space.
+\begin{align}
+S&=\{1,2,3,-1,-2,-3\}\\
+n(S)&=6
+\end{align}
+
+\begin{enumerate}[label=(\roman*)]
+    \item
+
+Let $E_1$ be the event of getting positive integer.\\
+\begin{align}
+E_1 &= \{1,2,3\}\\
+\implies  n (E_1) &= 3
+\end{align}
+
+Let $P(E_1)$ be the probability of getting a positive integer\\
+\begin{align}
+    P(E_1) &=\dfrac{n(E_1)}{n(S)}\\
+   \implies p(E_1)&=\dfrac{3}{6}\\
+             &=\dfrac{1}{2}\\
+             &=0.5
+ \end{align}
+ 
+\item
+Let $E_2$ be the event of getting an integer greater than -3.\\
+\begin{align}
+E_2 &= \{1,2,3,-1,-2\}\\
+\implies  n (E_2) &= 5
+\end{align}
+
+Let $P(E_2)$ be the probability of getting an integer greater than -3\\
+\begin{align}
+    P(E_2)&=\dfrac{n(E_2)}{n(S)}\\
+   \implies p(E_1)&=\dfrac{5}{6}\\
+                  &=0.833
+ \end{align} 
+ 
+\item
+Let $E_3$ be the event of getting the smallest integer.\\
+\begin{align}
+E_3&=\{-3\}\\
+\implies n(E_3)&=1
+\end{align}
+
+Let $P(E_3)$ be the probability of getting the smallest integer
+\begin{align}
+        P(E_3) &=\dfrac{n(E_3)}{n(S)}\\
+        \implies p(E_1)&=\dfrac{1}{6}\\
+                       &=0.166
+\end{align}
+\end{enumerate}
+
+\end{document}
