@@ -1,5 +1,5 @@
 import numpy as np
-a=np.linspace(1,6,6)
+a=np.linspace(1,6,6)  #generating sample space via numpy
 a[3]=-1
 a[4]=-2
 a[5]=-3
